@@ -1,20 +1,20 @@
-Email Multi-class Classifier
+# Email Multi-class Classifier
 
 Using machine learning algorithms to classify emails into 8 different classes
 
-Brief Description
+### Brief Description
 
 This project was part of the Foundations of Machine Learning Course at CentraleSupélec - Université Paris-Saclay. It was hosted as a Kaggle Competition and the ipynb file in the repository contains code of the machine learning algorithms I tried. 
 
-Motivation
+### Motivation
 
 We often face the problem of searching meaningful emails among thousands of promotional emails.
 
-Challenge Goal
+### Challenge Goal
 
 This challenge focuses on creating a multiclass classifier that can classify an email into eight classes based on metadata extracted from the email.
 
-Dataset Features
+### Dataset Features
 
 • date - unix style date format, date-time on which the email was received, e.g. Sat, 2 Jul 2016 11:02:58 +0530
 • org - organisation of the sender, e.g. centralesupelec, facebook, and google
@@ -30,7 +30,7 @@ Dataset Features
 • chars_in_body - number of characters in the mail body, e.g. 10 and 10000
 • label - label of this email. Eight classes are 'Updates', 'Personal', ‘Promotions’, 'Forums', 'Purchases', 'Travel', 'Spam', and ‘Social’. Class ids start from 0 to 7
 
-Class Labels
+### Class Labels
 
 0, Updates: Mails from bank, insurance providers, etc. These emails are update on some kind of service that the email account holder has opted for. Mails about account statement, delivery of product, flight tickets, etc.
 1, Personal: Mails from personal network
